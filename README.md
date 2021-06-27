@@ -4,7 +4,7 @@ Statistical study using **R** to compare vehicle performance.
 
 ## Overview of the analysis: 
 
-The following study contains three technical analysis deliverables and a proposal. Presented as follows::
+The following study contains three technical analysis deliverables and a proposal presented as follows::
 
 1. Deliverable 1: **Linear Regression to Predict MPG**
 2. Deliverable 2: **Summary Statistics on Suspension Coils**
@@ -18,7 +18,7 @@ The following study contains three technical analysis deliverables and a proposa
 - We desigend a linear model that predicts the **mpg** of MechaCar prototypes using several variables from the `MechaCar_mpg.csv` and the resulting model can be viewed on the image below:
 
 	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%201.png "Deliverable 1")
-
+	
 	**SUMMARY**
 
 	From the results above:
@@ -28,7 +28,7 @@ The following study contains three technical analysis deliverables and a proposa
 	* Is the slope of the linear model considered to be zero? Why or why not?
 
 	* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-	
+
 
 ## Summary Statistics on Suspension Coils
 
