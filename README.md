@@ -17,7 +17,7 @@ The following study contains three technical analysis deliverables and a proposa
 
 - We desigend a linear model that predicts the **mpg** of MechaCar prototypes using several variables from the `MechaCar_mpg.csv` and the resulting model can be viewed on the image below:
 
-	![alt text](URL "Deliverable 1")
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%201.png "Deliverable 1")
 
 	**SUMMARY**
 
