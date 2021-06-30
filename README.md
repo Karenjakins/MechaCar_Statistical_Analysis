@@ -75,7 +75,21 @@ The following study contains three technical analysis deliverables and a proposa
 
 ## Study Design: MechaCar vs Competition
 
-- sjhfbadkfbd
+- It would be interesting to conduct a study that collects data on MechaCar and comparable models from other manufacturers as a popular feature that consumers heavily consider when thinking of purchasing a car is **fuel efficiency** as it greatly impacts costs of ownership per year.
+
+	**Metrics**
+
+	Driving system (2-wheel, 4-wheel)
+	Fuel Capacity / Fuel type (Electric, Hybrid, Gasoline)
+	MPG (Gasoline Efficiency)
+	
+	**Hypothesis** 
+
+	Is the MechaCar fuel efficiency performance adequately priced based on its performance or not.
+
+	**Statistical Tests**
+
+	Conducting a multiple linear regression to determine the metrics that have the most significant correlation and predictability with the best **fuel efficiency** and its impact on the vehicle price.
 
 ## Resources
 
