@@ -1,6 +1,6 @@
 # MechaCar Statistical Analysis
 
-Statistical study using **R** to compare vehicle performance.
+A statistical study using **R** to compare vehicle performance.
 
 ## Overview of the analysis: 
 
@@ -13,9 +13,7 @@ The following study contains three technical analysis deliverables and a proposa
 
 ## Linear Regression to Predict MPG
 
-1. **August Peak Hours**
-
-- We desigend a linear model that predicts the **mpg** of MechaCar prototypes using several variables from the `MechaCar_mpg.csv` and the resulting model can be viewed on the image below:
+- We designed a linear model that predicts the **mpg** of MechaCar prototypes using several variables from the `MechaCar_mpg.csv` and the resulting model can be viewed on the image below:
 
 	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%201.png "Deliverable 1")
 	
@@ -23,51 +21,61 @@ The following study contains three technical analysis deliverables and a proposa
 
 	From the results above:
 
-	* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+	* Which **variables/coefficients** provided a non-random amount of **variance to the mpg values** in the dataset?
+
+	In this dataset the **vehicle_length**, **ground_clearance** (as well as the **intercept**) provided non-random amounts of variance to the mpg values. 
 
 	* Is the slope of the linear model considered to be zero? Why or why not?
 
+	The linear model's slope is not considered to be zero as the **p-Value** for this model is `5.35e-11` which is significantly smaller than the **significance level = 0.05%**. 
+
 	* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+	This linear model predicts prototypes of mpg MechaCar effectively since the **r-squared** value is **0.7149**, which means that about **71%** of all mpg predictions will be effectively determined by this model.
 
 
 ## Summary Statistics on Suspension Coils
 
-- gfbdfgfghn
+- The `Suspension_Coil.csv` file contains data on the results of testing weight capacities of various suspension coils from several production lots to determine overall consistency.
 
-2. **Top Ending Locations**
+	**SUMMARY**
 
-	![alt text](URL "Deliverable 1")
+	**Total Summary**
 
-	For a bike renting business to be effective there needs to be a clear understanding of areas within cities that have higher demand and where most of the bikes need to be allocated to ensure there is enough supply. The above visualization shows the **top ending locations** in NYC which reflects where the majority of the bikes were taken when they were checked out by the users. 
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%202%20-%20Total%20Summary.png "Deliverable 2 - Total Summary")
+
+	**Lot Summary**
+
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%202%20-%20Lot%20Summary.png "Deliverable 2 - Lot Summary")
+
+	From the results above:
+
+	The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (**PSI**). Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? 
+
+	For this model, **Lot 1** and **Lot 2** meet design specifications, having very close **mean** and **median** values, with variances of **0.97** and **7.47**. However, **Lot 3** has the most variance amongst the three, **170.28** and does not meet the manufacturing expectations.
 
 ## T-Tests on Suspension Coils
 
-- ksjgvnfkjdbvndfjkbvfsjkg
+- T-tests were conducted on the `Suspension_Coil.csv` to determine if there is a **statistical difference** on this dataset. Using the sample population mean of **1500**, these are our findings:
 
-3. **Checkout Times for Users** 
+	**SUMMARY** 
 
-	![alt text](URL "Deliverable 1")
+	![alt text](URL "T-test for all lots")
+	
+	We can observe from the results that the true mean is **1498.78** which was also on our summary statistics table for **Deliverable 2**. The t-test shows there is not enough evidence to reject the null hypothesis since the **p-value** for all manufacturing lots is **0.06028** higher than the common significance level of 0.05. 
 
-	The above line graph shows the **average time** a bike was checked out by the users, which can be useful to offer fair pricing and ideal rental time slots for the bikes.  
+	**Lot 1**
+	![alt text](URL "T-tests for Lot 1")
+	**Lot 2**
+	![alt text](URL "T-tests for Lot 2")
+	**Lot 3**
+	![alt text](URL "T-tests for Lot 3")
+
+	For each individual lot, *Lot 1 had a p-value of 1 and Lot 2 had a p-value of 0.60*, both statistically similar which means we cannot reject the null hypothesis. For **Lot 3**, the sample mean is **1496.14** with a **p-Value of 0.04**, lower than the significance level of 0.05 which indicates that the sample mean and the presumed population mean are not statistically different.
 
 ## Study Design: MechaCar vs Competition
 
 - sjhfbadkfbd
-
-4. **Checkout Times by Gender**
-
-	![alt text](URL "Deliverable 1")
-
-	The above graphic is a more detailed look into the checkout times, and it looks into **gender**, which can be useful to understand trends and how to cater to all demographics and perhaps offer bikes that can meet the needs of different users. 
-
-
-## Summary 
-
-This data analysis provides insightful information for investors into the demand for bike renting businesses in New York which can be implemented in cities like Des Moines. It's clear there is a high demand for bikes, regardless of gender and it appears to be a popular method of transportation be it for day-to-day needs to more touristic uses.
-
-Based on the data set provided, I would have conducted an analysis of hours where bikes were used the least, to plan out the most ideal time slots for maintenance of the bikes across the stations to ensure bikes are always ready to be checked out without inconveniencing users and customers.
-
-Another analysis that can be useful to conduct would be to take into consideration the distances transited by users, and with this information try to set up a more efficient plan for stations that allow for more reachability for all commutes.
 
 ## Resources
 
