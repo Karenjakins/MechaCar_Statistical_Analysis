@@ -79,9 +79,9 @@ The following study contains three technical analysis deliverables and a proposa
 
 	**Metrics**
 
-	Driving system (2-wheel, 4-wheel)
-	Fuel Capacity / Fuel type (Electric, Hybrid, Gasoline)
-	MPG (Gasoline Efficiency)
+	- Driving system (2-wheel, 4-wheel)
+	- Fuel Capacity / Fuel type (Electric, Hybrid, Gasoline)
+	- MPG (Gasoline Efficiency)
 	
 	**Hypothesis** 
 
