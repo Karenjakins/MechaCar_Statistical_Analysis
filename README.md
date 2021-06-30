@@ -60,16 +60,16 @@ The following study contains three technical analysis deliverables and a proposa
 
 	**SUMMARY** 
 
-	![alt text](URL "T-test for all lots")
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/T-test%20for%20all%20lots.png "T-test for all lots")
 	
 	We can observe from the results that the true mean is **1498.78** which was also on our summary statistics table for **Deliverable 2**. The t-test shows there is not enough evidence to reject the null hypothesis since the **p-value** for all manufacturing lots is **0.06028** higher than the common significance level of 0.05. 
 
 	**Lot 1**
-	![alt text](URL "T-tests for Lot 1")
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/T-tests%20for%20Lot%201.png "T-tests for Lot 1")
 	**Lot 2**
-	![alt text](URL "T-tests for Lot 2")
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/T-tests%20for%20Lot%202.png "T-tests for Lot 2")
 	**Lot 3**
-	![alt text](URL "T-tests for Lot 3")
+	![alt text](https://github.com/Karenjakins/MechaCar_Statistical_Analysis/blob/main/Resources/T-tests%20for%20Lot%203.png "T-tests for Lot 3")
 
 	For each individual lot, *Lot 1 had a p-value of 1 and Lot 2 had a p-value of 0.60*, both statistically similar which means we cannot reject the null hypothesis. For **Lot 3**, the sample mean is **1496.14** with a **p-Value of 0.04**, lower than the significance level of 0.05 which indicates that the sample mean and the presumed population mean are not statistically different.
 
